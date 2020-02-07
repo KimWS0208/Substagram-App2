@@ -9,6 +9,9 @@ const PhotoTabs = createMaterialTopTabNavigator(
     {
         SelectPhoto,
         TakePhoto
+    },
+    {
+        tabBarPosition: "bottom"
     }
 );
 
