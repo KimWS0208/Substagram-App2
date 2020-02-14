@@ -12,15 +12,15 @@ const Text = styled.Text``;
 
 export default ({navigation}) => (
     <View>
-        <Text>Notification</Text>
+        <Text>Confirm</Text>
         <TouchableOpacity onPress={()=>navigation.navigate("AuthHome")}>
             <Text>Go to AuthHome</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate("Profile")}>
-            <Text>Go to Profile</Text>
+        <TouchableOpacity onPress={()=>navigation.navigate("Login")}>
+            <Text>Go to Login</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={()=>navigation.navigate("Search")}>
-            <Text>Go to Search</Text>
+        <TouchableOpacity onPress={()=>navigation.navigate("SignUp")}>
+            <Text>Go to SignUp</Text>
         </TouchableOpacity>
     </View>
 )

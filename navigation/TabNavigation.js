@@ -2,9 +2,9 @@ import React from "react";
 import {View} from "react-native";
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { createStackNavigator } from 'react-navigation-stack';
-import Search from "../screens/Auth/Search";
-import Notification from "../screens/Auth/Notification";
-import Profile from "../screens/Auth/Profile";
+import Notification from "../screens/Tabs/Notification";
+import Profile from "../screens/Tabs/Profile";
+import Search from "../screens/Tabs/Search";
 import AuthHome from "../screens/Auth/AuthHome";
 import MessagesLink from "../components/MessagesLink";
 
